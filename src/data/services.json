@@ -1,0 +1,28 @@
+{
+    "title": "Services",
+    "description": "From concept to completion.. We help our client create their own unique space",
+    "servicesList": [
+        {
+            "logo": "services/interior-design.png",
+            "title": "Interior Design"
+        },
+        {
+            "logo": "services/furnitures.png",
+            "title": "Furniture Design & production"
+        },
+        {
+            "logo": "services/interior-plan.png",
+            "title": "Construction work"
+        },
+        {
+            "logo": "services/partnership.png", 
+            "title": "Turn key projects" 
+        },{
+            "logo": "services/vase.png",
+            "title": "FF&E / Accessories selection "
+        },{
+            "logo": "services/plan.png",
+            "title": "Space planning"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+.projects {
+    padding: 3rem 0;
+}
+
+.project {
+    margin: 7rem 0;
+}
+
+.project img {
+    width: 100%;
+}
+
+.projectDetails a, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Not Allowed styles */
+.projectDetails li.not-allowed {
+    cursor: not-allowed;
+}
+.projectDetails li.not-allowed a {
+    pointer-events: none;
+}
+
+@media (min-width: 768px) {
+    .evenChild {
+        order: -1;
+    }
+}
+
+.projectDetails h2 {
+    margin-bottom: 3rem;
+    color: var(--secondery);
+}
+
+.projectDetails a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+}
+
+.projectDetails li {
+    margin: 1rem 0;
+    color: var(--secondery);
+}
+
+@media (max-width: 767px) {
+    .projectDetails h2 {
+        margin: 3rem 0;
+    }
+}

@@ -1,0 +1,23 @@
+.mail_icon,
+.facebook_icon,
+.linkedin_icon,
+.instagram_icon,
+.threads_icon {
+  transition: color ease 1s;
+}
+
+.mail_icon:hover,
+.facebook_icon:hover,
+.linkedin_icon:hover,
+.instagram_icon:hover,
+.threads_icon:hover {
+  color: var(--secondery);
+}
+
+.darkIcons {
+  color: var(--primary);
+}
+
+.lightIcons {
+  color: var(--our-white);
+}

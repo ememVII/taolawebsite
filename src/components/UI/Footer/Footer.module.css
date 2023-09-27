@@ -1,0 +1,19 @@
+footer{
+    background-color: var(--primary);
+}
+
+
+.link{
+    color: #FFF;
+    font-family: Baskerville;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

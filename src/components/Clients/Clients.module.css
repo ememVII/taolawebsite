@@ -1,0 +1,24 @@
+#clients {
+    padding: 3rem 0;
+    min-height: 100vh;
+}
+
+#clients .Main_Title h2{
+    color: var(--primary, #4A4647);
+    font-family: Baskerville;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+#clients img {
+    margin: 2rem 0;
+}
+
+@media(max-width: 767px) {
+    #clients .Main_Title h2{
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+.loading {
+    background-color: var(--primary);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .loading img:first-child, .loading img:last-child {
+        display: none;
+    }
+}
