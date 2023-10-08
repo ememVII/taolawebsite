@@ -4,7 +4,7 @@
 
 #services .Main_Title h2{
     color: var(--primary, #4A4647);
-    text-align: center;
+    /* text-align: center; */
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Baskerville;
     font-size: 44px;
@@ -16,7 +16,7 @@
 
 #services .Main_Title p{
     color: var(--secondary, #86888B);
-    text-align: center;
+    /* text-align: center; */
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
@@ -32,7 +32,7 @@ font-size reduce in media query ==> 425px and less
 
 #services .Srv_Box h3{
     color: var(--primary, #4A4647);
-    text-align: center;
+    /* text-align: center; */
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Baskerville;
     font-size: 25px;
@@ -40,3 +40,9 @@ font-size reduce in media query ==> 425px and less
     font-weight: 400;
     line-height: 38px; /* 126.667% */
 }
+
+/* #services .Srv_Box img {
+    min-width: 100%;
+} */
+
+/*  d-flex justify-content-center align-items-center flex-column gap-2 text-center */

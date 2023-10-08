@@ -1,28 +1,34 @@
 {
     "title": "Services",
-    "description": "From concept to completion.. We help our client create their own unique space",
+    "description": "At Taola we offer a wide scope of Interior design activities related to creating functional and aesthetic spaces. Here are some of the services we offer our client:",
     "servicesList": [
         {
             "logo": "services/interior-design.png",
-            "title": "Interior Design"
+            "title": "Interior Design",
+            "description": "From concept & schematic design (creating mood board, 3d visualizations, selecting material, color schemes and overall aesthetics) to developing full working drawing (Lighting, HVAC, Flooring plans, Ceiling & Elevations…) and ending with Furniture and Fixture selection from the market (furniture, Carpets, Curtains, upholstery..). We help our client create their unique space."
         },
         {
             "logo": "services/furnitures.png",
-            "title": "Furniture Design & production"
+            "title": "Furniture Design & production",
+            "description": "Producing our own furniture designed is a craft we always loved. We are a detailed oriented team and we draw pieces we love and produce with passion. From wood work to upholstery, glass, stainless steel we cater to our projects all items necessary for the final look"
         },
         {
             "logo": "services/interior-plan.png",
-            "title": "Construction work"
+            "title": "Construction work",
+            "description": "Site construction, implementing all design approved by client & supervision on site. Reviewing BOQ, Following up deliveries, making sure of the project time line. Supervising all material selection on site are according to the design."
         },
         {
             "logo": "services/partnership.png", 
-            "title": "Turn key projects" 
+            "title": "Turn key projects" ,
+            "description": "we use this approach as a comprehensive service where we takes care of all aspects of the project, ensuring that every detail is completed and delivered to the client. This includes not only the design and construction aspects but also the selection and procurement of various items such as linens, towels, paintings, tableware, and other OS&E (Operating Supplies and Equipment). In addition to project management and coordination with all involved parties. This approach provides our clients with the convenience of having a single point of contact and minimizes their involvement in the process.  It allows them to simply receive the key to their completed space and enjoy the finished result without having to worry about the various details and coordination involved."
         },{
             "logo": "services/vase.png",
-            "title": "FF&E / Accessories selection "
+            "title": "FF&E / Accessories selection ",
+            "description": "We transform a space and give it life through furniture, Accessories, cushions, Carpets and other decorative items that are essential at elevating the mood and giving a special feel to every space. "
         },{
             "logo": "services/plan.png",
-            "title": "Space planning"
+            "title": "Space planning",
+            "description": "we analyze the available space and developed layouts to optimize functionality, traffic  flow, and the efficient use of space"
         }
     ]
 }

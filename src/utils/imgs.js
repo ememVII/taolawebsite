@@ -1,5 +1,6 @@
 // Loading
 import Logo from '/Logo.png';
+import LoadingCover from '/imgs/LoadingCover.jpg';
 import Loading01 from '/imgs/Loading01.png';
 import Loading02 from '/imgs/Loading02.png';
 import Loading03 from '/imgs/Loading03.png';
@@ -26,7 +27,7 @@ import LeftArrowDark from '/utilities/LeftArrowDark.svg'
 import Line from '/utilities/Line.svg'
 
 // Home
-import homeIntro from '/home/pexels-jean-van-der-meulen-1457842 2.png'
+import homeIntro from '/home/intro.jpg'
 
 import homeProject01 from '/home/homeProject01.png'
 import homeProject02 from '/home/homeProject02.png'
@@ -36,8 +37,12 @@ import homeProject04 from '/home/homeProject04.png'
 import homeService01 from '/home/pexels-mark-mccammon-1080721 2.png'
 import homeService02 from '/home/pexels-mister-mister-2442904 1.png'
 
+// Projects
+import projectsHeader from '/projects/projectsHeader.png'
+
 export {
     Logo,
+    LoadingCover,
     Loading01,
     Loading02,
     Loading03,
@@ -60,5 +65,6 @@ export {
     UpRightArrowLight,
     UpRightArrowDark,
     LeftArrowDark,
-    Line
+    Line,
+    projectsHeader
 }

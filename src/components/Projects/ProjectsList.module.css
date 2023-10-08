@@ -6,8 +6,12 @@
     margin: 7rem 0;
 }
 
-.project img {
+.project img, .projectHeader img {
     width: 100%;
+}
+
+.projectHeader {
+    order: 2;
 }
 
 .projectDetails a, li {
@@ -17,9 +21,11 @@
 /* Not Allowed styles */
 .projectDetails li.not-allowed {
     cursor: not-allowed;
+    
 }
 .projectDetails li.not-allowed a {
     pointer-events: none;
+    color: gray;
 }
 
 @media (min-width: 768px) {
@@ -47,5 +53,9 @@
 @media (max-width: 767px) {
     .projectDetails h2 {
         margin: 3rem 0;
+    }
+    
+    .projectHeader {
+        order: -1;
     }
 }

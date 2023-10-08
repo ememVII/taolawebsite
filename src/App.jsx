@@ -17,13 +17,23 @@ import NotFound from './pages/NotFound/NotFound'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
-
   
   useEffect(() => {
   setTimeout(() => {
     setIsLoading(false)
-  }, 500)
-  }, [])
+  }, 2000)
+  
+  if(isLoading) {
+    document.body.classList.add('disable-scroll')
+  } else {
+    document.body.classList.remove('disable-scroll')
+  }
+
+  return () => {
+    document.body.classList.remove('disable-scroll')
+  }
+  
+  }, [isLoading])
   
   
   return (

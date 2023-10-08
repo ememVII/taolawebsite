@@ -74,7 +74,7 @@
 
 /* Intro Section */
 .intro {
-    padding: 7rem 0;
+    padding: 3rem 0;
 }
 
 img.introImg {
@@ -157,6 +157,10 @@ img.IntroFlower {
 .services {
     margin: 7rem 0;
     color: var(--primary);
+}
+
+.servicesContent img {
+    height: 3rem;
 }
 
 .servicesDetails h2 {

@@ -1,10 +1,12 @@
 export const projectsData = [
-// Project 01
+  // Project 01
   {
     id: 'hospitality',
     notClickable: true,
     projectTitle: 'Hospitality',
     projectCover: 'projects/hospitality/cover.png',
+    description:
+      "Taola Interiors was selected as the design firm of record for the renovation project at the Sheraton Cairo Hotel & Casino. The project was completed under the umbrella of Marriott Int'l Global Design. Taola completed the design process from Concept to tender as well as the completion of 2 types of Mock up rooms which was approved by Marriott as the new design for the Hotel rooms, suites Corridors & lift lobby.",
     subProjects: [
       {
         id: '1',
@@ -34,13 +36,15 @@ export const projectsData = [
       },
     ],
   },
-  
-//   Project 02
-{
+
+  //   Project 02
+  {
     id: 'corporate',
     notClickable: false,
     projectTitle: 'Corporate',
     projectCover: 'projects/corporate/cover.png',
+    description:
+      "Taola Interiors has worked on various corporate offices, including the total make over and complete renovation of CRCICA (Cairo Regional Centre for International Commercial Arbitration). The firm transformed the outdated 1970's design into a modern and state-of-the-art arbitration center. The center won the award for best arbitration center worldwide that same year after the renovation. Leading to another 2 major projects with the same entity for a full face lift of the conference center and the employees area. ",
     subProjects: [
       {
         id: '1',
@@ -122,12 +126,14 @@ export const projectsData = [
       },
     ],
   },
-// Project 03
-{
+  // Project 03
+  {
     id: 'residential',
     notClickable: false,
     projectTitle: 'Residential',
     projectCover: 'projects/residential/cover.png',
+    description:
+      "Taola Interiors has a passion for working on residential projects. As in each project the team aims at capturing the essence of the client and create authentic and genuine spaces that reflect their unique personalities and preferences.",
     subProjects: [
       {
         id: '1',
@@ -274,12 +280,14 @@ export const projectsData = [
       },
     ],
   },
-// Project 04
-{
+  // Project 04
+  {
     id: 'commercial',
     notClickable: true,
     projectTitle: 'Commercial',
     projectCover: 'projects/commercial/cover.png',
+    description:
+      'Taola Interiors has experience working on restaurants and lounges. As part of the Sheraton Cairo hotel project Taola has designed the anticipated "Sheraton Sky lounge". A roof top overlooking the Nile from the 23rd floor. Taola Team succeded in turning a neglected roof with amazing view to a luxurious lounge/restaurant.',
     subProjects: [
       {
         id: '1',

@@ -6,7 +6,7 @@ import Projects from "../../components/Home/Projects"
 function Home() {
     return (
         <div>
-            <Hero/>
+            {/* <Hero/> */}
             <Intro/>
             <Projects/>
             <OurServices/>

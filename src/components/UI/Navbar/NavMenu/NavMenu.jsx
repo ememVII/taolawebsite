@@ -59,11 +59,13 @@ function NavMenu() {
           custom={height}
           className={isOpen ? styles.navMenu : ''} //fixes what behind nav when closed
         >
-          <motion.div
+          {isOpen ? <>
+            <motion.div
             className={styles.navBackground}
             variants={sidebar}
           ></motion.div>
           <Navigation isOpen={isOpen} toggle={() => setToggle()}/>
+          </> : null}
           <MenuToggle toggle={() => setToggle()} />
         </motion.nav>
     </>
