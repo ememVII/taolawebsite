@@ -1,11 +1,11 @@
-import ContactUs from "../../components/Contact Us/ContactUs";
+import ContactUs from '../../components/Contact Us/ContactUs'
 
 function Contact() {
-    return (
-        <>
-            <ContactUs/>
-        </>
-    )
+  return (
+    <>
+      <ContactUs />
+    </>
+  )
 }
 
 export default Contact

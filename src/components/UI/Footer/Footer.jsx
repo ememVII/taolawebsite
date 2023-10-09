@@ -4,9 +4,6 @@ import {footerRouting, socialLinks} from "../../../data/paths_data";
 import { footer } from '../../../utils/imgs'
 import { Link } from 'react-router-dom'
 
-
-
-
 function Footer() {
   return (
     <>

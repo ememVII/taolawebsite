@@ -1,18 +1,34 @@
 .loading {
-    background-color: var(--primary);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .loading img {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.loading img:last-child {
+  display: none;
 }
 
 @media (max-width: 768px) {
+  .loading img:first-child {
+    display: none;
+  }
+
+  .loading img:last-child {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    display: block;
+  }
+}
+
+/* @media (max-width: 768px) {
     .loading img:first-child, .loading img:last-child {
         display: none;
     }
-}
+} */

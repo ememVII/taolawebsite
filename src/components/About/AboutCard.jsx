@@ -13,31 +13,6 @@ function About() {
                   <h2>Taola Interiors</h2>
                   <h3>Interior Design & Bespoke Furniture</h3>
                 </div>
-                {/* <p>
-                  Who we are We are Taola Interiors, a Cairo based Interior
-                  Design firm. Established in 2009 by Arch. Marwa El-Abd, Arch.
-                  Hala El-Shimi and Ms. Nadia El-Hageen.
-                </p>
-                <p>
-                  As a team, we have a shared passion for design and a
-                  consistent attention to detail. We are committed to client
-                  satisfaction through delivering bespoke interior designs.
-                </p>
-                <p>
-                  Our projects We work on a wide range of Corporate and
-                  residential turn key projects. delivering full interior design
-                  packages and furniture production. Hospitality In 2019 We have
-                  proudly become the interior designer of record for the new
-                  renovation of “Sheraton Cairo Hotel & Casino” under the
-                  umbrella of Marriott International Global Design.
-                </p>
-                <p>
-                  Our Vision We Aspire to become the leading Egyptian interior
-                  design firm of choice for hotels and corporate projects. We
-                  seek to add value to every client we work with through our
-                  dedication to the design process and our commitment for a
-                  superior client experience.
-                </p> */}
                 <p>
                   Taola Interiors is Cairo-based interior design firm with a
                   rich history spanning over a decade, since our establishment

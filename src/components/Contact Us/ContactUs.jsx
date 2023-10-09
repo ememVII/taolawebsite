@@ -4,10 +4,9 @@ import Button from '../UI/Button/Button'
 import contactData from '../../data/contact.json'
 import { socialLinks } from '../../data/paths_data'
 import { Contact } from '../../utils/imgs'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 function ContactUs() {
-  
   return (
     <>
       <section id={styles.contact}>
@@ -45,16 +44,17 @@ function ContactUs() {
                               {contact.description.mail_one}
                             </Link>
                           </p>
-                          <p>{contact.description.tel_Two}
-                          </p>
+                          <p>{contact.description.tel_Two}</p>
                         </div>
                       ))}
                     </div>
                   </div>
                 </div>
                 <div className={`${styles.media} mt-5`}>
-                  <Link to='mailto: taola@taolaegypt.com'><Button /></Link>
-                  <Social dark iconSize={'fs-5'} socialLinks={socialLinks}/>
+                  <Link to="mailto: taola@taolaegypt.com">
+                    <Button />
+                  </Link>
+                  <Social dark iconSize={'fs-5'} socialLinks={socialLinks} />
                 </div>
               </div>
             </div>

@@ -1,11 +1,11 @@
-import ServicesCard from "../../components/Services/ServicesCard"
+import ServicesCard from '../../components/Services/ServicesCard'
 
 function Services() {
-    return (
-        <>
-            <ServicesCard/>
-        </>
-    )
+  return (
+    <>
+      <ServicesCard />
+    </>
+  )
 }
 
 export default Services
