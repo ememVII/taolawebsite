@@ -11,7 +11,7 @@ const Path = props => (
 )
 
 export const MenuToggle = ({ toggle }) => (
-  <button onClick={toggle}>
+  <button onClick={toggle} aria-label='navbar'>
     <svg width="30px" height="30px" viewBox="0 0 23 23">
       <Path
         variants={{

@@ -22,6 +22,7 @@ export default function Social({
               to={path}
               className={`${styles[style]} ${iconSize}`}
               target="_blank"
+              aria-label={style}
             >
               <i className={`${className} ${isDark}`}></i>
             </Link>

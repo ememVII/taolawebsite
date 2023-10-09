@@ -23,18 +23,3 @@ function Navbar() {
 }
 
 export default Navbar
-
-/* 
-      <nav className={`container-fluid position-fixed justify-content-between`}>
-        <Link to="/home">
-          <img
-            src={Logo}
-            alt="taola logo"
-            width={167}
-            height={80}
-            className={styles.logo}
-          />
-        </Link>
-        <NavMenu />
-      </nav>
-*/
